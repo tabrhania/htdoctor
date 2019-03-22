@@ -1,6 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+define('BASEPATH')OR exit('No direct script access allowed');
 
-class Barang_model extends CI_Model {
-
+class barang_model extends CI_Model {
+    
 }

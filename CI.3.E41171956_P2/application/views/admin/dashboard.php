@@ -2,31 +2,33 @@
 <html lang="en">
 
 <head>
-<!-- pemanggilan modul head.php -->
-<?php $this->load->view('admin/_partials/head'); ?> 
-
+ <!-- pemanggilan modul head.php-->
+ <?php $this->load->view('admin/_partials/head'); ?>
+  
 </head>
 
 <body id="page-top">
-<!-- Navbar -->
-<?php $this->load->view('admin/_partials/navbar'); ?>
+ <!-- Navbar -->
+ <?php $this->load->view('admin/_partials/navbar'); ?>
 
-  <div id="wrapper">
+ 
 
+ <div id="wrapper">
 
-    <!-- Sidebar -->
-    <?php $this->load->view('admin/_partials/sidebar'); ?>
+  <!-- Sidebar -->
+  <?php $this->load->view('admin/_partials/sidebar'); ?>
 
+   
     <div id="content-wrapper">
 
       <div class="container-fluid">
 
+  <!-- Breadcrumbs-->
+  <?php $this->load->view('admin/_partials/breadcrumbs'); ?>
 
-        <!-- Breadcrumbs -->
-        <?php $this->load->view('admin/_partials/breadcrumbs'); ?>
+        
 
-
-     <!-- Icon Cards-->
+        <!-- Icon Cards-->
         <div class="row">
           <div class="col-xl-3 col-sm-6 mb-3">
             <div class="card text-white bg-primary o-hidden h-100">
@@ -91,14 +93,18 @@
                 </span>
               </a>
             </div>
-          </div>  
-     </div>
+          </div>
+        </div>
 
-     </div>
+        
+
+      </div>
       <!-- /.container-fluid -->
 
-  </div>
-  <!-- /content-wrapper -->
+      
+
+    </div>
+    <!-- /.content-wrapper -->
 
   </div>
   <!-- /#wrapper -->
@@ -108,12 +114,14 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
- <!-- modal -->
- <?php $this->load->view('admin/_partials/modal'); ?>
+  <!-- modal -->
+  <?php $this->load->view('admin/_partials/modal'); ?>
 
-<!-- Bootstrap core javascript -->
-<?php $this->load->view('admin/_partials/js'); ?>
 
+  <!-- Bootstrap core Javascript-->
+  <?php $this->load->view('admin/_partials/js'); ?>
+
+  
 
 </body>
 
